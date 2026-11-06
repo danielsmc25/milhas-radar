@@ -303,18 +303,8 @@ def alerts(offers):
     lim_m = float(os.environ.get("ALERTA_MILHEIRO") or 18)
     lim_p = float(os.environ.get("ALERTA_PASSAGEM") or 400)
 
-    hot = [
-        o for o in offers
-        if (
-            o["cat"] == "milhas"
-            and o["cpm"] is not None
-            and o["cpm"] <= lim_m
-        ) or (
-            o["cat"] == "passagem"
-            and o["fare"] is not None
-            and o["fare"] <= lim_p
-        )
-    ]
+    hot = offers
+    
 
     first_run = not os.path.exists(STATE)
 
