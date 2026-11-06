@@ -16,6 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -25,7 +26,7 @@ jobs:
 
       - name: Coletar ofertas e enviar alertas
         env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ALERTA_MILHEIRO: ${{ vars.ALERTA_MILHEIRO }}
           ALERTA_PASSAGEM: ${{ vars.ALERTA_PASSAGEM }}
