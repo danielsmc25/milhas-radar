@@ -327,7 +327,7 @@ def alerts(offers):
     else:
         novos = [o for o in hot if o["link"] not in sent]
 
-        for o in novos[:5]:
+        for o in novos:
             if o["cat"] == "milhas":
                 val = f"milheiro {brl(o['cpm'])}"
             else:
