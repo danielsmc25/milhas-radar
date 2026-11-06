@@ -78,19 +78,6 @@
   "discount": null
  },
  {
-  "source": "Passageiro de Primeira",
-  "title": "Finnair Plus oferece até 50% de desconto na compra de Avios",
-  "link": "https://passageirodeprimeira.com/finnair-plus-oferece-50-de-desconto-na-compra-de-avios/",
-  "date": "2026-11-04T19:10:10+00:00",
-  "percent": "50%",
-  "cat": "milhas",
-  "entity": "Avios",
-  "kind": "Compra",
-  "cpm": null,
-  "fare": null,
-  "discount": null
- },
- {
   "source": "Melhores Destinos",
   "title": "Viagem ao fim do mundo: passagens para Ushuaia ou Punta Arenas a partir de R$ 1.828 ida e volta",
   "link": "https://www.melhoresdestinos.com.br/promocao/viagem-fim-do-mundo-passagens-ushuaia-punta-arenas-1828",
