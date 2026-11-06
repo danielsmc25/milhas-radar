@@ -1,10 +1,13 @@
 name: Atualizar ofertas
 on:
   schedule:
-    - cron: "0 9,21 * * *"
+    - cron: "*/15 * * * *"   # a cada 15 minutos
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -14,9 +17,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: python fetch_offers.py
-      - name: Publicar mudanças
+      - name: Publicar só se houver novidades
         run: |
           git config user.name "milhas-radar"
           git config user.email "actions@users.noreply.github.com"
-          git add docs
-          git diff --cached --quiet || (git commit -m "Atualiza ofertas" && git push)
+          if [ -n "$(git status --porcelain -- docs/data.json)" ]; then
+            git add docs
+            git commit -m "Atualiza ofertas" && git push
+          else
+            echo "Sem novidades."
+          fi
