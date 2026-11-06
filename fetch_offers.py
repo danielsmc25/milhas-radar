@@ -144,23 +144,15 @@ def telegram(token, chat, text):
         print(f"Aviso: falha ao enviar alerta: {e}")
         return False
 
+
 def alerts(offers):
-    token, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    token = os.environ.get("TELEGRAM_TOKEN")
+    chat = os.environ.get("TELEGRAM_CHAT_ID")
+
     if not token or not chat:
         print("Aviso: TELEGRAM_TOKEN ou TELEGRAM_CHAT_ID não configurado.")
         return
-          if os.environ.get("TESTE_TELEGRAM") == "1":
-        ok = telegram(
-            token,
-            chat,
-            "✈️ Radar de Milhas — TESTE\n"
-            "✅ Alertas configurados com sucesso!\n"
-            "📢 Este grupo receberá novas promoções."
-        )
-        if not ok:
-            raise RuntimeError("Falha ao enviar teste ao Telegram")
-        print("Teste enviado com sucesso.")
-        return
+
     if os.environ.get("TESTE_TELEGRAM") == "1":
         ok = telegram(
             token,
@@ -170,25 +162,57 @@ def alerts(offers):
             "📢 Este grupo receberá novas promoções."
         )
         if not ok:
-            raise RuntimeError("Falha no teste do Telegram")
+            raise RuntimeError("Falha ao enviar teste ao Telegram")
         print("Teste do Telegram enviado com sucesso.")
         return
+
     lim_m = float(os.environ.get("ALERTA_MILHEIRO") or 18)
     lim_p = float(os.environ.get("ALERTA_PASSAGEM") or 400)
-    hot = [o for o in offers if (o["cat"] == "milhas" and o["cpm"] is not None and o["cpm"] <= lim_m)
-           or (o["cat"] == "passagem" and o["fare"] is not None and o["fare"] <= lim_p)]
+
+    hot = [
+        o for o in offers
+        if (
+            o["cat"] == "milhas"
+            and o["cpm"] is not None
+            and o["cpm"] <= lim_m
+        ) or (
+            o["cat"] == "passagem"
+            and o["fare"] is not None
+            and o["fare"] <= lim_p
+        )
+    ]
+
     first_run = not os.path.exists(STATE)
-    sent = [] if first_run else json.load(open(STATE, encoding="utf-8"))
+    sent = [] if first_run else json.load(
+        open(STATE, encoding="utf-8")
+    )
+
     if first_run:
-        if telegram(token, chat, f"✅ Alertas do Radar de Milhas ativados.\nAvisos: milheiro até {brl(lim_m)} ou passagem até {brl(lim_p)}."):
+        if telegram(
+            token,
+            chat,
+            f"✅ Alertas do Radar de Milhas ativados.\n"
+            f"Milheiro até {brl(lim_m)} ou passagem até {brl(lim_p)}."
+        ):
             sent = [o["link"] for o in hot]
     else:
         for o in [x for x in hot if x["link"] not in sent][:5]:
-            val = f"milheiro {brl(o['cpm'])}" if o["cat"] == "milhas" else f"passagem a partir de {brl(o['fare'])}"
-            if telegram(token, chat, f"🔔 {o['entity']}: {val}\n{o['title']}\n{o['link']}"):
+            val = (
+                f"milheiro {brl(o['cpm'])}"
+                if o["cat"] == "milhas"
+                else f"passagem a partir de {brl(o['fare'])}"
+            )
+            if telegram(
+                token,
+                chat,
+                f"🔔 {o['entity']}: {val}\n"
+                f"{o['title']}\n{o['link']}"
+            ):
                 sent.append(o["link"])
-        sent += [x["link"] for x in hot if x["link"] not in sent]  # o excedente não reenvia depois
-    json.dump(sent[-500:], open(STATE, "w", encoding="utf-8"), ensure_ascii=False)
+
+    with open(STATE, "w", encoding="utf-8") as f:
+        json.dump(sent[-500:], f, ensure_ascii=False)
+
 
 # ---------- Página ----------
 def hue(name):
