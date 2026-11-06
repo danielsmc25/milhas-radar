@@ -91,6 +91,19 @@
   "discount": null
  },
  {
+  "source": "Passageiro de Primeira",
+  "title": "Azul tem passagens nacionais a partir de R$ 59 ou de 4.200 pontos + taxas",
+  "link": "https://passageirodeprimeira.com/azul-tem-passagens-nacionais-a-partir-de-r-59-ou-de-4-200-pontos-taxas/",
+  "date": "2026-11-06T16:40:45+00:00",
+  "percent": "",
+  "cat": "passagem",
+  "entity": "Azul",
+  "kind": "Com milhas ou pontos",
+  "cpm": null,
+  "fare": 59.0,
+  "discount": null
+ },
+ {
   "source": "Melhores Destinos",
   "title": "Viagem ao fim do mundo: passagens para Ushuaia ou Punta Arenas a partir de R$ 1.828 ida e volta",
   "link": "https://www.melhoresdestinos.com.br/promocao/viagem-fim-do-mundo-passagens-ushuaia-punta-arenas-1828",
@@ -124,19 +137,6 @@
   "percent": "25%",
   "cat": "passagem",
   "entity": "Qatar",
-  "kind": "Em dinheiro",
-  "cpm": null,
-  "fare": null,
-  "discount": null
- },
- {
-  "source": "Passageiro de Primeira",
-  "title": "Lufthansa oferece 50% de desconto na tarifa de passagens para crianças",
-  "link": "https://passageirodeprimeira.com/lufthansa-oferece-50-de-desconto-na-tarifa-de-passagens-para-criancas/",
-  "date": "2026-11-04T20:30:23+00:00",
-  "percent": "50%",
-  "cat": "passagem",
-  "entity": "Lufthansa",
   "kind": "Em dinheiro",
   "cpm": null,
   "fare": null,
