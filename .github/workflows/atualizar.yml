@@ -28,7 +28,6 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TESTE_TELEGRAM: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
           ALERTA_MILHEIRO: ${{ vars.ALERTA_MILHEIRO }}
           ALERTA_PASSAGEM: ${{ vars.ALERTA_PASSAGEM }}
         run: python fetch_offers.py
