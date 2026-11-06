@@ -305,7 +305,6 @@ def alerts(offers):
 
     hot = offers
     
-
     first_run = not os.path.exists(STATE)
 
     if first_run:
