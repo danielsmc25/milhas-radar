@@ -1,21 +1,28 @@
+
 name: Atualizar ofertas
+
 on:
   schedule:
-    - cron: "*/15 * * * *"   # a cada 15 minutos
+    - cron: "*/15 * * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: atualizar
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Coletar ofertas e enviar alertas
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -23,22 +30,21 @@ jobs:
           ALERTA_MILHEIRO: ${{ vars.ALERTA_MILHEIRO }}
           ALERTA_PASSAGEM: ${{ vars.ALERTA_PASSAGEM }}
         run: python fetch_offers.py
-          git config user.email "actions@users.noreply.github.com"
-          if [ -n "$(git status --porcelain -- docs/data.json alertas_enviados.json)" ]; then
-            git add -A -- docs/
-            
+
       - name: Publicar só se houver novidades
         run: |
           git config user.name "milhas-radar"
           git config user.email "actions@users.noreply.github.com"
-          if [ -n "$(git status --porcelain -- docs/data.json alertas_enviados.json)" ]; then
-            git add -A -- docs/
-            if [ -f alertas_enviados.json ]; then
-              git add -- alertas_enviados.json
-            fi
+
+          git add -A -- docs/
+
+          if [ -f alertas_enviados.json ]; then
+            git add -- alertas_enviados.json
+          fi
+
+          if ! git diff --cached --quiet; then
             git commit -m "Atualiza ofertas"
             git push
           else
             echo "Sem novidades."
           fi
-
