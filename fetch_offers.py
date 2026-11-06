@@ -147,6 +147,19 @@ def telegram(token, chat, text):
 def alerts(offers):
     token, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat:
+        print("Aviso: TELEGRAM_TOKEN ou TELEGRAM_CHAT_ID não configurado.")
+        return
+    if os.environ.get("TESTE_TELEGRAM") == "1":
+        ok = telegram(
+            token,
+            chat,
+            "✈️ Radar de Milhas — TESTE\n"
+            "✅ Alertas configurados com sucesso!\n"
+            "📢 Este grupo receberá novas promoções."
+        )
+        if not ok:
+            raise RuntimeError("Falha no teste do Telegram")
+        print("Teste do Telegram enviado com sucesso.")
         return
     lim_m = float(os.environ.get("ALERTA_MILHEIRO") or 18)
     lim_p = float(os.environ.get("ALERTA_PASSAGEM") or 400)
