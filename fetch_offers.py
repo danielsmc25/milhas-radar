@@ -175,11 +175,11 @@ def when_label(o, now):
     return ("hoje " if delta == 0 else "ontem " if delta == 1 else f"{d:%d/%m} ") + f"{d:%H:%M}"
 
 def pick(offers, valfn, reverse, now, n=3):
+    """Seleciona os melhores valores dos últimos DAYS dias, sem favorecer recência."""
     cands = [o for o in offers if valfn(o) is not None]
-    limite = now.astimezone(timezone.utc) - timedelta(hours=DESTAQUE_HORAS)
-    recent = sorted([o for o in cands if o["date"] >= limite], key=valfn, reverse=reverse)
-    old = sorted([o for o in cands if o["date"] < limite], key=valfn, reverse=reverse)
-    return (recent + old)[:n]
+    return sorted(cands, key=lambda o: (valfn(o), -o["date"].timestamp()),
+                  reverse=reverse)[:n] if reverse else sorted(
+        cands, key=lambda o: (valfn(o), -o["date"].timestamp()))[:n]
 
 def card(o, rank, big, unit, now):
     return (f'<a class="hl" style="--c:hsl({hue(o["entity"])} 70% 48%)" href="{html.escape(o["link"])}" rel="noopener">'
@@ -190,14 +190,13 @@ def card(o, rank, big, unit, now):
 def highlights(milhas, passagens, now):
     m = pick(milhas, lambda o: o["cpm"], False, now)
     fares = pick(passagens, lambda o: o["fare"], False, now)
-    descs = [o for o in pick(passagens, lambda o: o["discount"], True, now) if o not in fares]
-    p = (fares + descs)[:3]
+    p = fares  # Cupons e descontos não são preços de passagens.
     def block(title, cards):
-        body = "".join(cards) or '<p class="vazio">Ainda sem valores nos títulos das últimas horas.</p>'
+        body = "".join(cards) or '<p class="vazio">Nenhuma oferta com preço identificado nos últimos dias.</p>'
         return f'<div class="hgroup"><h2>{title}</h2><div class="hgrid">{body}</div></div>'
     mc = [card(o, i + 1, brl(o["cpm"]), "por milheiro", now) for i, o in enumerate(m)]
-    pc = [card(o, i + 1, brl(o["fare"]), "a partir de", now) if o["fare"] is not None
-          else card(o, i + 1, brl(o["discount"]), "de desconto", now) for i, o in enumerate(p)]
+    pc = [card(o, i + 1, brl(o["fare"]), "a partir de", now)
+          for i, o in enumerate(p)]
     return block("Menores milheiros", mc) + block("Melhores passagens", pc)
 
 def render_section(cat, offers, now, label_best):
