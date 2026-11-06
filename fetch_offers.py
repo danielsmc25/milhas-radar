@@ -306,7 +306,7 @@ def alerts(offers):
     hot = offers
     
 
-    first_run = not os.path.exists(STATE)
+       first_run = not os.path.exists(STATE)
 
     if first_run:
         sent = []
@@ -314,37 +314,21 @@ def alerts(offers):
         with open(STATE, encoding="utf-8") as f:
             sent = json.load(f)
 
-       if first_run:
-        print("Primeira execução: enviando ofertas encontradas.")
-        sent = []
+    novos = [o for o in hot if o["link"] not in sent]
 
-        for o in hot:
-            msg = (
-                f"🔔 {o['entity']}\n"
-                f"{o['title']}\n"
-                f"{o['link']}"
-            )
+    print(f"Ofertas novas para alertar: {len(novos)}")
 
-            if telegram(token, chat, msg):
-                sent.append(o["link"])
+    for o in novos:
+        msg = (
+            f"🔔 {o['entity']}\n"
+            f"{o['title']}\n"
+            f"{o['link']}"
+        )
 
-    else:
-        novos = [o for o in hot if o["link"] not in sent]
-
-        for o in novos:
-            if o["cat"] == "milhas":
-                val = f"milheiro {brl(o['cpm'])}"
-            else:
-                val = f"passagem a partir de {brl(o['fare'])}"
-
-            msg = (
-                f"🔔 {o['entity']}: {val}\n"
-                f"{o['title']}\n"
-                f"{o['link']}"
-            )
-
-            if telegram(token, chat, msg):
-                sent.append(o["link"])
+        if telegram(token, chat, msg):
+            sent.append(o["link"])
+        else:
+            print(f"Falha ao enviar: {o['link']}")
 
     with open(STATE, "w", encoding="utf-8") as f:
         json.dump(sent[-500:], f, ensure_ascii=False)
