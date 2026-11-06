@@ -23,13 +23,22 @@ jobs:
           ALERTA_MILHEIRO: ${{ vars.ALERTA_MILHEIRO }}
           ALERTA_PASSAGEM: ${{ vars.ALERTA_PASSAGEM }}
         run: python fetch_offers.py
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain -- docs/data.json alertas_enviados.json)" ]; then
+            git add -A -- docs/
+            
       - name: Publicar só se houver novidades
         run: |
           git config user.name "milhas-radar"
           git config user.email "actions@users.noreply.github.com"
           if [ -n "$(git status --porcelain -- docs/data.json alertas_enviados.json)" ]; then
-            git add docs alertas_enviados.json
-            git commit -m "Atualiza ofertas" && git push
+            git add -A -- docs/
+            if [ -f alertas_enviados.json ]; then
+              git add -- alertas_enviados.json
+            fi
+            git commit -m "Atualiza ofertas"
+            git push
           else
             echo "Sem novidades."
           fi
+
