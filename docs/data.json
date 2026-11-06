@@ -1,18 +1,5 @@
 [
  {
-  "source": "Melhores Cartões",
-  "title": "Azul e Premmia: ganhe até 120% de bônus na transferência de pontos – milheiro a partir de R$ 15,32",
-  "link": "https://www.melhorescartoes.com.br/azul-premmia-120-bonus-nov26.html",
-  "date": "2026-11-06T13:25:17+00:00",
-  "percent": "120%",
-  "cat": "milhas",
-  "entity": "Azul Fidelidade",
-  "kind": "Transferência bonificada",
-  "cpm": 15.32,
-  "fare": null,
-  "discount": null
- },
- {
   "source": "Passageiro de Primeira",
   "title": "Gere o milheiro a partir R$ 15,52 assinando o Clube Smiles 1.000",
   "link": "https://passageirodeprimeira.com/gere-o-milheiro-a-partir-r-1552-assinando-o-clube-smiles-1-000/",
@@ -22,19 +9,6 @@
   "entity": "Smiles",
   "kind": "Assinatura de clube",
   "cpm": 15.52,
-  "fare": null,
-  "discount": null
- },
- {
-  "source": "Melhores Cartões",
-  "title": "Assine o Clube Livelo com nosso cupom exclusivo e acumule 25.000 pontos em 1 ano – milheiro a partir de R$ 21,56",
-  "link": "https://www.melhoresdestinos.com.br/milhas/oferta-clube-livelo-exclusiva-md-25k-nov26",
-  "date": "2026-11-06T13:53:01+00:00",
-  "percent": "",
-  "cat": "milhas",
-  "entity": "Livelo",
-  "kind": "Assinatura de clube",
-  "cpm": 21.56,
   "fare": null,
   "discount": null
  },
@@ -65,32 +39,6 @@
   "discount": null
  },
  {
-  "source": "Melhores Cartões",
-  "title": "Termina hoje! Azul oferece até 130% de bônus na transferência de pontos Livelo",
-  "link": "https://www.melhorescartoes.com.br/ultimo-dia-azul-bonus-130-nov26.html",
-  "date": "2026-11-06T12:12:36+00:00",
-  "percent": "130%",
-  "cat": "milhas",
-  "entity": "Azul Fidelidade",
-  "kind": "Transferência bonificada",
-  "cpm": null,
-  "fare": null,
-  "discount": null
- },
- {
-  "source": "Passageiro de Primeira",
-  "title": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos da Nubank",
-  "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-da-nubank/",
-  "date": "2026-11-05T15:40:08+00:00",
-  "percent": "120%",
-  "cat": "milhas",
-  "entity": "Azul Fidelidade",
-  "kind": "Transferência bonificada",
-  "cpm": null,
-  "fare": null,
-  "discount": null
- },
- {
   "source": "Passageiro de Primeira",
   "title": "Azul tem passagens nacionais a partir de R$ 59 ou de 4.200 pontos + taxas",
   "link": "https://passageirodeprimeira.com/azul-tem-passagens-nacionais-a-partir-de-r-59-ou-de-4-200-pontos-taxas/",
@@ -105,28 +53,93 @@
  },
  {
   "source": "Melhores Destinos",
-  "title": "Viagem ao fim do mundo: passagens para Ushuaia ou Punta Arenas a partir de R$ 1.828 ida e volta",
-  "link": "https://www.melhoresdestinos.com.br/promocao/viagem-fim-do-mundo-passagens-ushuaia-punta-arenas-1828",
-  "date": "2026-11-04T14:19:05+00:00",
+  "title": "Chile 2×1! Passagens para Santiago mais Deserto do Atacama ou Patagônia a partir de R$ 1.799",
+  "link": "https://www.melhoresdestinos.com.br/promocao/chile-2x1-passagens-para-santiago-mais-deserto-do-atacama-06nov26",
+  "date": "2026-11-06T10:05:33+00:00",
   "percent": "",
   "cat": "passagem",
   "entity": "Outras companhias",
   "kind": "Em dinheiro",
   "cpm": null,
-  "fare": 1828.0,
+  "fare": 1799.0,
   "discount": null
  },
  {
   "source": "Melhores Destinos",
-  "title": "Viagem 2 em 1 na melhor do mundo! Dubai + Doha voando Qatar Airways a partir de R$ 5.191 ida e volta com bagagem inclusa",
-  "link": "https://www.melhoresdestinos.com.br/promocao/viagem-2-em-1-dubai-doha-qatar-airways-5191",
-  "date": "2026-11-04T13:22:57+00:00",
+  "title": "Férias na Disney 🎢 Passagens aéreas para Orlando ou Tampa a partir de R$ 2.291 ida e volta",
+  "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-orlando-06-11-26",
+  "date": "2026-11-06T18:20:43+00:00",
   "percent": "",
   "cat": "passagem",
-  "entity": "Qatar",
+  "entity": "Outras companhias",
   "kind": "Em dinheiro",
   "cpm": null,
-  "fare": 5191.0,
+  "fare": 2291.0,
+  "discount": null
+ },
+ {
+  "source": "Melhores Destinos",
+  "title": "Bonito na Black Antecipada! Pacotes com voos + Zagaia Eco Resort a partir de R$ 2.609 por pessoa mais cupom de até 10% OFF",
+  "link": "https://www.melhoresdestinos.com.br/promocao/bonito-na-black-antecipada-pacotes-zagaia-06nov26",
+  "date": "2026-11-06T13:22:57+00:00",
+  "percent": "10%",
+  "cat": "passagem",
+  "entity": "Outras companhias",
+  "kind": "Em dinheiro",
+  "cpm": null,
+  "fare": 2609.0,
+  "discount": null
+ },
+ {
+  "source": "Melhores Destinos",
+  "title": "Europa com a Latam! Voos diretos para Lisboa, Paris, Roma e mais destinos a partir de R$ 3.632 ida e volta",
+  "link": "https://www.melhoresdestinos.com.br/promocao/europa-com-a-latam-voos-diretos-para-lisboa-06nov26",
+  "date": "2026-11-06T12:49:43+00:00",
+  "percent": "",
+  "cat": "passagem",
+  "entity": "LATAM",
+  "kind": "Em dinheiro",
+  "cpm": null,
+  "fare": 3632.0,
+  "discount": null
+ },
+ {
+  "source": "Melhores Destinos",
+  "title": "🇪🇺 Europa 2×1! Passagens aéreas para 2 destinos na Europa a partir de R$ 4.566 saindo de São Paulo e mais cidades!",
+  "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-06-11-26",
+  "date": "2026-11-06T19:20:38+00:00",
+  "percent": "",
+  "cat": "passagem",
+  "entity": "Outras companhias",
+  "kind": "Em dinheiro",
+  "cpm": null,
+  "fare": 4566.0,
+  "discount": null
+ },
+ {
+  "source": "Passageiro de Primeira",
+  "title": "Azul Fidelidade oferece cupom de até 15% de desconto em passagens",
+  "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-cupom-de-ate-15-de-desconto-em-passagens-2/",
+  "date": "2026-11-06T21:10:19+00:00",
+  "percent": "15%",
+  "cat": "passagem",
+  "entity": "Azul",
+  "kind": "Em dinheiro",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
+  "source": "Passageiro de Primeira",
+  "title": "Azul oferece até 20% de desconto no resgate de passagens para portadores do cartão Azul Itaú",
+  "link": "https://passageirodeprimeira.com/azul-oferece-ate-20-desconto-resgate-passagens-portadores-cartao-azul-itau/",
+  "date": "2026-11-06T19:20:33+00:00",
+  "percent": "20%",
+  "cat": "passagem",
+  "entity": "Azul",
+  "kind": "Com milhas ou pontos",
+  "cpm": null,
+  "fare": null,
   "discount": null
  },
  {
@@ -141,18 +154,5 @@
   "cpm": null,
   "fare": null,
   "discount": null
- },
- {
-  "source": "Melhores Destinos",
-  "title": "Promo relâmpago! Cupom de até R$ 200 OFF em passagens aéreas da Azul na Decolar",
-  "link": "https://www.melhoresdestinos.com.br/promocao/cupom-azul-passagens-aereas-decolar",
-  "date": "2026-11-04T17:11:35+00:00",
-  "percent": "",
-  "cat": "passagem",
-  "entity": "Azul",
-  "kind": "Em dinheiro",
-  "cpm": null,
-  "fare": null,
-  "discount": 200.0
  }
 ]
