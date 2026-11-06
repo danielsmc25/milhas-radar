@@ -314,15 +314,19 @@ def alerts(offers):
         with open(STATE, encoding="utf-8") as f:
             sent = json.load(f)
 
-    if first_run:
-        msg = (
-            "✅ Alertas do Radar de Milhas ativados.\n"
-            f"Avisos: milheiro até {brl(lim_m)} "
-            f"ou passagem até {brl(lim_p)}."
-        )
+       if first_run:
+        print("Primeira execução: enviando ofertas encontradas.")
+        sent = []
 
-        if telegram(token, chat, msg):
-            sent = [o["link"] for o in hot]
+        for o in hot:
+            msg = (
+                f"🔔 {o['entity']}\n"
+                f"{o['title']}\n"
+                f"{o['link']}"
+            )
+
+            if telegram(token, chat, msg):
+                sent.append(o["link"])
 
     else:
         novos = [o for o in hot if o["link"] not in sent]
