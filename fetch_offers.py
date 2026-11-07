@@ -207,14 +207,38 @@ def milhas_kind(t):
 def classify(o):
     t = o["title"]
 
-    if PRODUCT.search(t) and not BUY.search(t):
-        return None
-
     if re.search(r"iphone|celular|smartphone|notebook|geladeira", t, re.I):
         return None
 
-    pct = re.search(r"(\d{2,3})\s?%", t)
-    o["percent"] = pct.group(1) + "%" if pct else ""
+    transferencia = bool(re.search(
+        r"transfer[eê]ncia|transferir|transfira|"
+        r"b[oô]nus.*(?:pontos|milhas)|"
+        r"(?:pontos|milhas).*b[oô]nus|"
+        r"bonifica[dç][ao]|bonificados?",
+        t, re.I
+    ))
+
+    compra = bool(re.search(
+        r"compr[ae]|adquir[ai]|"
+        r"milheiro|milhas? com desconto|"
+        r"pontos? com desconto",
+        t, re.I
+    ))
+
+    if transferencia and re.search(
+        r"milhas?|pontos?|livelo|esfera|smiles|"
+        r"latam pass|azul fidelidade|tudoazul",
+        t, re.I
+    ):
+        o.update(
+            cat="milhas",
+            entity=find_entity(t, PROGRAMS),
+            kind="Transferência bonificada",
+            cpm=None,
+            fare=None,
+            discount=find_discount(t),
+        )
+        return o
 
     if BUY.search(t):
         o.update(
@@ -223,16 +247,29 @@ def classify(o):
             kind=milhas_kind(t),
             cpm=find_cpm(t),
             fare=None,
-            discount=None,
+            discount=find_discount(t),
+        )
+        return o
+
+    if compra and re.search(r"milhas?|pontos?|milheiro", t, re.I):
+        o.update(
+            cat="milhas",
+            entity=find_entity(t, PROGRAMS),
+            kind="Compra de milhas ou pontos",
+            cpm=find_cpm(t),
+            fare=None,
+            discount=find_discount(t),
         )
         return o
 
     if FARE.search(t) and DEAL.search(t):
-        with_points = bool(
-            re.search(r"milhas|pontos|emiss|resgate", t, re.I)
-        )
+        with_points = bool(re.search(
+            r"milhas|pontos|emiss|resgate", t, re.I
+        ))
 
-        ent = find_entity(t, AIRLINES, default="") or find_entity(
+        ent = find_entity(
+            t, AIRLINES, default=""
+        ) or find_entity(
             t, PROGRAMS, default="Outras companhias"
         )
 
