@@ -26,6 +26,32 @@
   "discount": null
  },
  {
+  "source": "Pontos pra Voar",
+  "title": "Livelo oferece até 56% OFF na compra de pontos e desconto extra no Pix",
+  "link": "https://pontospravoar.com/livelo-oferece-ate-56-porcento-off-compra-pontos-desconto-extra-pix/",
+  "date": "2026-11-06T23:00:54+00:00",
+  "percent": "56%",
+  "cat": "milhas",
+  "entity": "Livelo",
+  "kind": "Compra",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
+  "source": "Pontos pra Voar",
+  "title": "Prorrogado! Assine o Clube Smiles e ganhe 10 mil milhas bônus",
+  "link": "https://pontospravoar.com/prorrogado-assine-clube-smiles-ganhe-10-mil-milhas-bonus/",
+  "date": "2026-11-06T22:00:54+00:00",
+  "percent": "",
+  "cat": "milhas",
+  "entity": "Smiles",
+  "kind": "Assinatura de clube",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
   "source": "Passageiro de Primeira",
   "title": "Azul anuncia parceria com Premmia e oferece até 120% de bônus nas transferências – CPM a partir de R$ 15,32",
   "link": "https://passageirodeprimeira.com/azul-anuncia-parceria-com-premmia-e-oferece-ate-120-de-bonus-nas-transferencias-cpm-a-partir-de-r-1532/",
@@ -117,6 +143,19 @@
   "discount": null
  },
  {
+  "source": "Pontos pra Voar",
+  "title": "Azul Fidelidade e Premmia oferecem 15% de desconto em passagens nacionais",
+  "link": "https://pontospravoar.com/azul-fidelidade-premmia-oferecem-15-porcento-desconto-passagens-nacionais/",
+  "date": "2026-11-07T12:00:32+00:00",
+  "percent": "15%",
+  "cat": "passagem",
+  "entity": "Azul",
+  "kind": "Em dinheiro",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
   "source": "Passageiro de Primeira",
   "title": "Azul Fidelidade oferece cupom de até 15% de desconto em passagens",
   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-cupom-de-ate-15-de-desconto-em-passagens-2/",
@@ -143,14 +182,14 @@
   "discount": null
  },
  {
-  "source": "Passageiro de Primeira",
-  "title": "Qatar Airways oferece 25% de desconto em passagens com Avios",
-  "link": "https://passageirodeprimeira.com/qatar-airways-oferece-25-de-desconto-em-passagens-com-avios-2/",
-  "date": "2026-11-05T19:00:59+00:00",
-  "percent": "25%",
+  "source": "Pontos pra Voar",
+  "title": "Azul Fidelidade oferece até 20% de desconto em emissões nacionais com cartões Azul Itaú",
+  "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-20-porcento-desconto-emissoes-nacionais-cartoes-azul-itau/",
+  "date": "2026-11-06T18:00:48+00:00",
+  "percent": "20%",
   "cat": "passagem",
-  "entity": "Qatar",
-  "kind": "Em dinheiro",
+  "entity": "Azul",
+  "kind": "Com milhas ou pontos",
   "cpm": null,
   "fare": null,
   "discount": null
