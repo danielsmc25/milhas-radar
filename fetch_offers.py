@@ -15,9 +15,8 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 FEEDS = {
-    "Passageiro de Primeira": "https://passageirodeprimeira.com/feed/",
-    "Melhores Cartões": "https://www.melhorescartoes.com.br/feed",
-    "Melhores Destinos": "https://www.melhoresdestinos.com.br/feed",
+  if os.environ.get("FEEDS"):
+    FEEDS = dict(p.split("=", 1) for p in os.environ["FEEDS"].split(";"))
 }
 
 if os.environ.get("FEEDS"):
