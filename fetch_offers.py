@@ -315,7 +315,6 @@ def telegram(token, chat, text):
         print(f"Aviso: falha ao enviar alerta: {e}")
         return False
 
-
 def alerts(offers):
     token = (os.environ.get("TELEGRAM_TOKEN") or "").strip()
     chat = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
@@ -347,13 +346,13 @@ def alerts(offers):
     
     first_run = not os.path.exists(STATE)
 
-    if first_run:
+       if first_run:
         sent = []
     else:
         with open(STATE, encoding="utf-8") as f:
             sent = json.load(f)
 
-      novos = [o for o in hot if o["link"] not in sent]
+    novos = [o for o in hot if o["link"] not in sent]
 
     print(f"Ofertas novas para alertar: {len(novos)}")
 
