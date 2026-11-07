@@ -353,15 +353,47 @@ def alerts(offers):
         with open(STATE, encoding="utf-8") as f:
             sent = json.load(f)
 
-    novos = [o for o in hot if o["link"] not in sent]
+      novos = [o for o in hot if o["link"] not in sent]
 
     print(f"Ofertas novas para alertar: {len(novos)}")
 
     for o in novos:
+        titulo = o["title"]
+        tipo = o.get("kind", "")
+        entidade = o.get("entity", "Oferta")
+        texto = titulo.lower()
+
+        if re.search(
+            r"rel[aâ]mpago|últimas horas|tempo limitado|"
+            r"somente hoje|flash sale",
+            texto,
+            re.I,
+        ):
+            destaque = "🔥 PROMOÇÃO-RELÂMPAGO"
+
+        elif tipo == "Transferência bonificada":
+            destaque = "🎁 TRANSFERÊNCIA BONIFICADA"
+
+        elif o["cat"] == "milhas":
+            destaque = "💰 PROMOÇÃO DE MILHAS E PONTOS"
+
+        elif re.search(
+            r"internacional|exterior|europa|"
+            r"estados unidos|argentina|chile|"
+            r"portugal|paris|miami|orlando",
+            texto,
+            re.I,
+        ):
+            destaque = "🌎 OFERTA INTERNACIONAL"
+
+        else:
+            destaque = "✈️ PROMOÇÃO DE PASSAGENS"
+
         msg = (
-            f"🔔 {o['entity']}\n"
-            f"{o['title']}\n"
-            f"{o['link']}"
+            f"{destaque}\n"
+            f"📢 {entidade}\n\n"
+            f"{titulo}\n\n"
+            f"🔗 {o['link']}"
         )
 
         if telegram(token, chat, msg):
