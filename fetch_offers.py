@@ -21,9 +21,8 @@ FEEDS = {
     "Pontos pra Voar": "https://pontospravoar.com/feed/",
 }
 
-
 if os.environ.get("FEEDS"):
-    FEEDS = dict(p.split("=", 1) for p in os.environ["FEEDS"].split(","))
+    FEEDS = dict(p.split("=", 1) for p in os.environ["FEEDS"].split(";"))
 
 DAYS = 3
 DESTAQUE_HORAS = 36
