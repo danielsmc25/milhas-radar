@@ -206,6 +206,8 @@ def milhas_kind(t):
 
 def classify(o):
     t = o["title"]
+    pct = re.search(r"(\d{2,3})\s?%", t)
+    o["percent"] = pct.group(1) + "%" if pct else ""
 
     if re.search(r"iphone|celular|smartphone|notebook|geladeira", t, re.I):
         return None
