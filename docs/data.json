@@ -26,6 +26,19 @@
   "discount": null
  },
  {
+  "source": "Melhores Cartões",
+  "title": "Transferência de Pontos na Black Friday — Guia Completo",
+  "link": "https://www.melhorescartoes.com.br/black-friday-como-aproveitar-transferencias-pontos.html",
+  "date": "2026-11-07T10:00:58+00:00",
+  "percent": "",
+  "cat": "milhas",
+  "entity": "Outros",
+  "kind": "Transferência bonificada",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
   "source": "Pontos pra Voar",
   "title": "Livelo oferece até 56% OFF na compra de pontos e desconto extra no Pix",
   "link": "https://pontospravoar.com/livelo-oferece-ate-56-porcento-off-compra-pontos-desconto-extra-pix/",
@@ -46,7 +59,46 @@
   "percent": "",
   "cat": "milhas",
   "entity": "Smiles",
-  "kind": "Assinatura de clube",
+  "kind": "Transferência bonificada",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
+  "source": "Passageiro de Primeira",
+  "title": "Último dia! Transfira pontos Livelo para o Azul Fidelidade e receba até 130% de bônus",
+  "link": "https://passageirodeprimeira.com/ultimo-dia-transfira-pontos-livelo-para-o-azul-fidelidade-e-receba-ate-130-de-bonus/",
+  "date": "2026-11-06T21:40:48+00:00",
+  "percent": "130%",
+  "cat": "milhas",
+  "entity": "Azul Fidelidade",
+  "kind": "Transferência bonificada",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
+  "source": "Pontos pra Voar",
+  "title": "Últimas horas! Transfira pontos da Livelo para o Azul Fidelidade e ganhe até 130% de bônus",
+  "link": "https://pontospravoar.com/ultimas-horas-transfira-pontos-livelo-azul-fidelidade-ganhe-ate-130-porcento-bonus/",
+  "date": "2026-11-06T20:00:01+00:00",
+  "percent": "130%",
+  "cat": "milhas",
+  "entity": "Azul Fidelidade",
+  "kind": "Transferência bonificada",
+  "cpm": null,
+  "fare": null,
+  "discount": null
+ },
+ {
+  "source": "Passageiro de Primeira",
+  "title": "Últimas horas para enviar pontos Esfera para o ALL Accor e ganhar 20% de pontos de volta + 10% de bônus",
+  "link": "https://passageirodeprimeira.com/ultimas-horas-para-enviar-pontos-esfera-para-o-all-accor-e-ganhar-20-de-pontos-de-volta-10-de-bonus/",
+  "date": "2026-11-06T18:10:40+00:00",
+  "percent": "20%",
+  "cat": "milhas",
+  "entity": "Esfera",
+  "kind": "Transferência bonificada",
   "cpm": null,
   "fare": null,
   "discount": null
