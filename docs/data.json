@@ -65,19 +65,6 @@
     "discount": null
   },
   {
-    "title": "Últimas horas! Transfira pontos da Livelo para o Azul Fidelidade e ganhe até 130% de bônus",
-    "link": "https://pontospravoar.com/ultimas-horas-transfira-pontos-livelo-azul-fidelidade-ganhe-ate-130-porcento-bonus/",
-    "date": "2026-11-06T20:00:01+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "130%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Azul tem passagens nacionais a partir de R$ 59 ou de 4.200 pontos + taxas",
     "link": "https://passageirodeprimeira.com/azul-tem-passagens-nacionais-a-partir-de-r-59-ou-de-4-200-pontos-taxas/",
     "date": "2026-11-06T16:40:45+00:00",
@@ -199,19 +186,6 @@
     "link": "https://passageirodeprimeira.com/azul-oferece-ate-20-desconto-resgate-passagens-portadores-cartao-azul-itau/",
     "date": "2026-11-06T19:20:33+00:00",
     "source": "Passageiro de Primeira",
-    "percent": "20%",
-    "cat": "passagem",
-    "entity": "Azul",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Azul Fidelidade oferece até 20% de desconto em emissões nacionais com cartões Azul Itaú",
-    "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-20-porcento-desconto-emissoes-nacionais-cartoes-azul-itau/",
-    "date": "2026-11-06T18:00:48+00:00",
-    "source": "Pontos pra Voar",
     "percent": "20%",
     "cat": "passagem",
     "entity": "Azul",
