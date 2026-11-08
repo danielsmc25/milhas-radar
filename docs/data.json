@@ -1,5 +1,18 @@
 [
   {
+    "title": "Mudando tudo! Semana do Milheiro – 02 a 08 de novembro",
+    "link": "https://pontospravoar.com/mudando-tudo-semana-milheiro-02-a-08-novembro/",
+    "date": "2026-11-08T21:00:36+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Outros programas",
+    "kind": "Compra de milhas ou pontos",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Cartão LATAM Pass Itaú: 40 mil milhas na adesão e até 35% de bônus nas transferências de pontos",
     "link": "https://passageirodeprimeira.com/cartao-latam-pass-itau-40-mil-milhas-na-adesao-e-ate-35-de-bonus-nas-transferencias-de-pontos/",
     "date": "2026-11-07T16:06:45+00:00",
@@ -125,19 +138,6 @@
     "cat": "passagem",
     "entity": "Outras companhias",
     "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Azul Fidelidade e Premmia oferecem 15% de desconto em passagens nacionais",
-    "link": "https://pontospravoar.com/azul-fidelidade-premmia-oferecem-15-porcento-desconto-passagens-nacionais/",
-    "date": "2026-11-07T12:00:32+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "15%",
-    "cat": "passagem",
-    "entity": "Azul",
-    "kind": "Em dinheiro",
     "cpm": null,
     "fare": null,
     "discount": null
