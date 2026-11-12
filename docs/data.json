@@ -26,6 +26,19 @@
     "discount": null
   },
   {
+    "title": "Acaba hoje! Transfira pontos do Inter Loop para o Azul Fidelidade com até 120% de bônus",
+    "link": "https://pontospravoar.com/acaba-hoje-transfira-pontos-inter-loop-azul-fidelidade-ate-120-porcento-bonus/",
+    "date": "2026-11-12T12:00:52+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "120%",
+    "cat": "milhas",
+    "entity": "Azul Fidelidade",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 11 de novembro de 2026",
     "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-11-novembro-2026/",
     "date": "2026-11-11T23:00:07+00:00",
@@ -229,19 +242,6 @@
     "cat": "passagem",
     "entity": "Azul",
     "kind": "Em dinheiro",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Só hoje! Azul Fidelidade oferece 11% de desconto em passagens com pontos – incluindo internacionais",
-    "link": "https://pontospravoar.com/so-hoje-azul-fidelidade-oferece-11-porcento-desconto-passagens-pontos-incluindo-internacionais/",
-    "date": "2026-11-11T13:49:02+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "11%",
-    "cat": "passagem",
-    "entity": "Azul",
-    "kind": "Com milhas ou pontos",
     "cpm": null,
     "fare": null,
     "discount": null
