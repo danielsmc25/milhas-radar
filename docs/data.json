@@ -1,14 +1,40 @@
 [
   {
-    "title": "Gere o milheiro Azul a partir de R$ 12,39 transferindo pontos Inter Loop + dinheiro",
-    "link": "https://passageirodeprimeira.com/gere-o-milheiro-azul-a-partir-de-r-1222-transferindo-pontos-inter-loop-dinheiro/",
-    "date": "2026-11-11T18:30:35+00:00",
-    "source": "Passageiro de Primeira",
+    "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 12 de novembro de 2026",
+    "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-12-novembro-2026/",
+    "date": "2026-11-12T23:00:28+00:00",
+    "source": "Pontos pra Voar",
     "percent": "",
     "cat": "milhas",
     "entity": "Outros programas",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": 12.39,
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Cartão LATAM Pass Itaú Platinum: 16 mil milhas na adesão e até 35% de bônus nas transferências de pontos",
+    "link": "https://passageirodeprimeira.com/cartao-latam-pass-itau-platinum-16-mil-milhas-na-adesao-e-ate-35-de-bonus-nas-transferencias-de-pontos/",
+    "date": "2026-11-12T20:50:38+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "35%",
+    "cat": "milhas",
+    "entity": "LATAM Pass",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Último dia para ganhar até 120% de bônus nas transferências de pontos do Inter Loop para o Azul Fidelidade",
+    "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-do-inter-loop-2/",
+    "date": "2026-11-12T20:30:41+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "120%",
+    "cat": "milhas",
+    "entity": "Azul Fidelidade",
+    "kind": "Transferência bonificada",
+    "cpm": null,
     "fare": null,
     "discount": null
   },
@@ -39,45 +65,6 @@
     "discount": null
   },
   {
-    "title": "Acaba hoje! Transfira pontos do Inter Loop para o Azul Fidelidade com até 120% de bônus",
-    "link": "https://pontospravoar.com/acaba-hoje-transfira-pontos-inter-loop-azul-fidelidade-ate-120-porcento-bonus/",
-    "date": "2026-11-12T12:00:52+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "120%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 11 de novembro de 2026",
-    "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-11-novembro-2026/",
-    "date": "2026-11-11T23:00:07+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "",
-    "cat": "milhas",
-    "entity": "Outros programas",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Segue valendo! Assine o Clube Smiles e ganhe 10 mil milhas bônus",
-    "link": "https://pontospravoar.com/segue-valendo-assine-clube-smiles-ganhe-10-mil-milhas-bonus/",
-    "date": "2026-11-11T22:30:14+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "",
-    "cat": "milhas",
-    "entity": "Smiles",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Até 23h59: Azul Fidelidade oferece até 120% de bônus na transferência de pontos do BRB",
     "link": "https://passageirodeprimeira.com/ate-23h59-azul-fidelidade-oferece-ate-120-de-bonus-na-transferencia-de-pontos-do-brb/",
     "date": "2026-11-11T21:20:38+00:00",
@@ -101,6 +88,19 @@
     "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Alerta PPV! Passagens nacionais na LATAM a partir de R$ 197",
+    "link": "https://pontospravoar.com/alerta-ppv-passagens-nacionais-latam-197-reais/",
+    "date": "2026-11-12T21:30:06+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "",
+    "cat": "passagem",
+    "entity": "LATAM",
+    "kind": "Em dinheiro",
+    "cpm": null,
+    "fare": 197.0,
     "discount": null
   },
   {
