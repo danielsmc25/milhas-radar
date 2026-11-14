@@ -13,6 +13,32 @@
     "discount": null
   },
   {
+    "title": "Blackíssima da Esfera: um mês para comprar, juntar pontos e resgatar benefícios",
+    "link": "https://passageirodeprimeira.com/blackissima-esfera-mes-para-comprar-juntar-pontos-resgatar-beneficios/",
+    "date": "2026-11-14T13:00:43+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Esfera",
+    "kind": "Compra de milhas ou pontos",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Azul Fidelidade oferece até 120% de bônus na transferência da Nomad + pontos extras",
+    "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-120-porcento-bonus-transferencia-da-nomad-pontos-extras/",
+    "date": "2026-11-14T11:00:00+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "120%",
+    "cat": "milhas",
+    "entity": "Azul Fidelidade",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 13 de novembro de 2026",
     "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-13-novembro-2026/",
     "date": "2026-11-13T23:00:43+00:00",
@@ -111,19 +137,6 @@
     "percent": "35%",
     "cat": "milhas",
     "entity": "LATAM Pass",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Último dia para ganhar até 120% de bônus nas transferências de pontos do Inter Loop para o Azul Fidelidade",
-    "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-do-inter-loop-2/",
-    "date": "2026-11-12T20:30:41+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "120%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
     "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
