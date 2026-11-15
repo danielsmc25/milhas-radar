@@ -78,19 +78,6 @@
     "discount": null
   },
   {
-    "title": "Acaba hoje! Smiles oferece até 70% de bônus na transferência de pontos + cupom",
-    "link": "https://pontospravoar.com/acaba-hoje-smiles-oferece-ate-70-porcento-bonus-transferencia-pontos-cupom/",
-    "date": "2026-11-13T17:30:26+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "70%",
-    "cat": "milhas",
-    "entity": "Smiles",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos da Nomad e Alloyal",
     "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-na-transferencia-de-pontos-da-nomad-e-alloyal/",
     "date": "2026-11-13T16:00:37+00:00",
@@ -111,19 +98,6 @@
     "percent": "30%",
     "cat": "milhas",
     "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Último dia para ganhar 35% de bônus transferindo pontos da Livelo para a Qatar Airways",
-    "link": "https://passageirodeprimeira.com/ultimo-dia-para-ganhar-35-de-bonus-transferindo-pontos-da-livelo-para-a-qatar-airways/",
-    "date": "2026-11-13T11:00:52+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "35%",
-    "cat": "milhas",
-    "entity": "Livelo",
     "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
