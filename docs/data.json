@@ -1,5 +1,18 @@
 [
   {
+    "title": "Últimas horas para receber até 388.000 pontos ao assinar o Clube Livelo Premium – Milheiro a partir de R$ 24,17",
+    "link": "https://passageirodeprimeira.com/ultimas-horas-para-receber-ate-388-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2417/",
+    "date": "2026-11-15T14:01:23+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Livelo",
+    "kind": "Compra de milhas ou pontos",
+    "cpm": 24.17,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Receba até 388.000 pontos ao assinar o Clube Livelo Premium – Milheiro a partir de R$ 24,17",
     "link": "https://passageirodeprimeira.com/receba-ate-388-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2417/",
     "date": "2026-11-13T13:31:09+00:00",
@@ -9,6 +22,19 @@
     "entity": "Livelo",
     "kind": "Compra de milhas ou pontos",
     "cpm": 24.17,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Acaba hoje! LATAM Pass com 25% de bônus na transferência de pontos do Itaú",
+    "link": "https://pontospravoar.com/acaba-hoje-latam-pass-25-porcento-bonus-transferencia-pontos-itau/",
+    "date": "2026-11-15T13:00:16+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "25%",
+    "cat": "milhas",
+    "entity": "LATAM Pass",
+    "kind": "Transferência bonificada",
+    "cpm": null,
     "fare": null,
     "discount": null
   },
@@ -65,19 +91,6 @@
     "discount": null
   },
   {
-    "title": "Apenas hoje! Azul Fidelidade e Alloyal com até 120% de bônus na transferência de pontos",
-    "link": "https://pontospravoar.com/apenas-hoje-azul-fidelidade-alloyal-ate-120-porcento-bonus-transferencia-pontos/",
-    "date": "2026-11-13T18:00:41+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "120%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Azul Fidelidade oferece até 120% de bônus na transferência de pontos da Nomad e Alloyal",
     "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-na-transferencia-de-pontos-da-nomad-e-alloyal/",
     "date": "2026-11-13T16:00:37+00:00",
@@ -91,68 +104,42 @@
     "discount": null
   },
   {
-    "title": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
-    "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor/",
-    "date": "2026-11-13T13:00:29+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "30%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Argentina! Passagens para Buenos Aires a partir de R$ 1.405 com bons preços em janeiro",
-    "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-12nov26",
-    "date": "2026-11-12T11:07:42+00:00",
+    "title": "Caribe! Passagens para Cancún ou Punta Cana a partir de R$ 2.624 saindo do Rio, BH e mais cidades",
+    "link": "https://www.melhoresdestinos.com.br/promocao/caribe-passagens-para-cancun-ou-punta-cana-13nov26",
+    "date": "2026-11-13T15:26:36+00:00",
     "source": "Melhores Destinos",
     "percent": "",
     "cat": "passagem",
     "entity": "Outras companhias",
     "kind": "Em dinheiro",
     "cpm": null,
-    "fare": 1405.0,
+    "fare": 2624.0,
     "discount": null
   },
   {
-    "title": "Diversão na Flórida! Passagens para Orlando a partir de R$ 2.604 com boas opções em janeiro, Carnaval e julho",
-    "link": "https://www.melhoresdestinos.com.br/promocao/diversao-na-florida-passagens-para-orlando-12nov26",
-    "date": "2026-11-12T12:37:18+00:00",
+    "title": "Muito bom! Voos diretos da Delta/Latam para Nova York a partir de R$ 2.733 saindo do Rio de Janeiro",
+    "link": "https://www.melhoresdestinos.com.br/promocao/muito-bom-voos-diretos-nova-york-rio-13nov26",
+    "date": "2026-11-13T13:57:34+00:00",
+    "source": "Melhores Destinos",
+    "percent": "",
+    "cat": "passagem",
+    "entity": "LATAM",
+    "kind": "Em dinheiro",
+    "cpm": null,
+    "fare": 2733.0,
+    "discount": null
+  },
+  {
+    "title": "Porto de Galinhas! Voos + hospedagem all inclusive no Enotel a partir de R$ 3.699 por pessoa em até 10x sem juros",
+    "link": "https://www.melhoresdestinos.com.br/promocao/porto-de-galinhas-voos-hospedagem-all-inclusive-no-enotel-13nov26",
+    "date": "2026-11-13T13:30:06+00:00",
     "source": "Melhores Destinos",
     "percent": "",
     "cat": "passagem",
     "entity": "Outras companhias",
     "kind": "Em dinheiro",
     "cpm": null,
-    "fare": 2604.0,
-    "discount": null
-  },
-  {
-    "title": "Europa 2×1! Passagens aéreas para Portugal mais outro país europeu a partir de R$ 4.370",
-    "link": "https://www.melhoresdestinos.com.br/promocao/europa-2x1-passagens-para-portugal-mais-outro-pais-europeu-12nov26",
-    "date": "2026-11-12T13:46:34+00:00",
-    "source": "Melhores Destinos",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "Outras companhias",
-    "kind": "Em dinheiro",
-    "cpm": null,
-    "fare": 4370.0,
-    "discount": null
-  },
-  {
-    "title": "Bom demais! Voos em classe executiva para Lisboa a partir de R$ 9.124 com datas no final do ano",
-    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-passagens-em-classe-executiva-12nov26",
-    "date": "2026-11-12T08:41:36+00:00",
-    "source": "Melhores Destinos",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "Outras companhias",
-    "kind": "Em dinheiro",
-    "cpm": null,
-    "fare": 9124.0,
+    "fare": 3699.0,
     "discount": null
   },
   {
