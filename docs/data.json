@@ -13,6 +13,19 @@
     "discount": null
   },
   {
+    "title": "Haja coração! Semana do Milheiro – 09 a 15 de novembro",
+    "link": "https://pontospravoar.com/haja-coracao-semana-milheiro-09-a-15-novembro/",
+    "date": "2026-11-15T21:00:09+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Outros programas",
+    "kind": "Compra de milhas ou pontos",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Azul Friday! Até 80% de bônus ao transformar cashback do Méliuz em pontos Azul Fidelidade",
     "link": "https://pontospravoar.com/azul-friday-ate-80-porcento-bonus-transformar-cashback-meliuz-pontos-azul-fidelidade/",
     "date": "2026-11-15T16:00:53+00:00",
@@ -52,19 +65,6 @@
     "discount": null
   },
   {
-    "title": "Azul Fidelidade oferece até 120% de bônus na transferência da Nomad + pontos extras",
-    "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-120-porcento-bonus-transferencia-da-nomad-pontos-extras/",
-    "date": "2026-11-14T11:00:00+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "120%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Jalapão barato! Passagens aéreas para Palmas a partir de 7 mil milhas o trecho",
     "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-palmas-tocantins-nov26",
     "date": "2026-11-13T19:41:15+00:00",
@@ -73,19 +73,6 @@
     "cat": "passagem",
     "entity": "Outras companhias",
     "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Azul Fidelidade oferece até 20% de desconto em passagens nacionais",
-    "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-20-de-desconto-em-passagens-nacionais-4/",
-    "date": "2026-11-13T17:20:20+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "20%",
-    "cat": "passagem",
-    "entity": "Azul",
-    "kind": "Em dinheiro",
     "cpm": null,
     "fare": null,
     "discount": null
