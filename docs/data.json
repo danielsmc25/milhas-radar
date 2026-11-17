@@ -143,32 +143,6 @@
     "discount": null
   },
   {
-    "title": "Wyndham Rewards oferece até 100% de bônus na compra de pontos",
-    "link": "https://passageirodeprimeira.com/wyndham-rewards-oferece-ate-100-bonus-compra-pontos/",
-    "date": "2026-11-16T11:40:11+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "100%",
-    "cat": "milhas",
-    "entity": "Outros programas",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Haja coração! Semana do Milheiro – 09 a 15 de novembro",
-    "link": "https://pontospravoar.com/haja-coracao-semana-milheiro-09-a-15-novembro/",
-    "date": "2026-11-15T21:00:09+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "",
-    "cat": "milhas",
-    "entity": "Outros programas",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Azul tem passagens nacionais a partir de R$ 50 ou 3.120 pontos + taxas",
     "link": "https://passageirodeprimeira.com/azul-passagens-nacionais-a-partir-r-50-ou-3-120-pontos-taxas/",
     "date": "2026-11-16T20:00:10+00:00",
@@ -205,6 +179,19 @@
     "kind": "Com milhas ou pontos",
     "cpm": null,
     "fare": 380.0,
+    "discount": null
+  },
+  {
+    "title": "Azul Friday! Azul Fidelidade oferece até 20% de desconto em passagens nacionais",
+    "link": "https://pontospravoar.com/azul-friday-azul-fidelidade-oferece-ate-20-porcento-desconto-passagens-nacionais/",
+    "date": "2026-11-17T12:00:48+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "20%",
+    "cat": "passagem",
+    "entity": "Azul",
+    "kind": "Em dinheiro",
+    "cpm": null,
+    "fare": null,
     "discount": null
   },
   {
