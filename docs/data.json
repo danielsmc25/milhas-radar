@@ -1,18 +1,5 @@
 [
   {
-    "title": "Milheiro a partir de R$ 14! Troque pontos Premmia por milhas Smiles com até 130% de bônus",
-    "link": "https://www.melhorescartoes.com.br/smiles-premmia-130-bonus-nov26.html",
-    "date": "2026-11-18T16:19:09+00:00",
-    "source": "Melhores Cartões",
-    "percent": "130%",
-    "cat": "milhas",
-    "entity": "Smiles",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": 14.0,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Gere o milheiro Smiles a partir de R$ 15,80 transferindo pontos Livelo + dinheiro",
     "link": "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro/",
     "date": "2026-11-18T13:56:13+00:00",
@@ -26,10 +13,23 @@
     "discount": null
   },
   {
-    "title": "Últimas horas! Smiles oferece até 80% de bônus na transferência de pontos com parceiros",
-    "link": "https://pontospravoar.com/ultimas-horas-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-parceiros/",
-    "date": "2026-11-18T21:00:28+00:00",
+    "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 18 de novembro de 2026",
+    "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-18-novembro-2026/",
+    "date": "2026-11-18T23:00:40+00:00",
     "source": "Pontos pra Voar",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Outros programas",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Últimas horas para ganhar até 80% de bônus nas transferências de pontos dos bancos para a Smiles",
+    "link": "https://passageirodeprimeira.com/prorrogado-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+    "date": "2026-11-18T21:40:39+00:00",
+    "source": "Passageiro de Primeira",
     "percent": "80%",
     "cat": "milhas",
     "entity": "Smiles",
@@ -39,14 +39,14 @@
     "discount": null
   },
   {
-    "title": "Ganhe até 13 pontos Livelo por real em compras na Insider, Carrefour Mercado, Petlove e mais parceiros",
-    "link": "https://www.melhorescartoes.com.br/livelo-parceiros-compras-13-pontos-nov26.html",
-    "date": "2026-11-18T18:01:29+00:00",
-    "source": "Melhores Cartões",
-    "percent": "",
+    "title": "Últimas horas! Smiles oferece até 80% de bônus na transferência de pontos com parceiros",
+    "link": "https://pontospravoar.com/ultimas-horas-smiles-oferece-ate-80-porcento-bonus-transferencia-pontos-parceiros/",
+    "date": "2026-11-18T21:00:28+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "80%",
     "cat": "milhas",
-    "entity": "Livelo",
-    "kind": "Compra de milhas ou pontos",
+    "entity": "Smiles",
+    "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
     "discount": null
@@ -91,19 +91,6 @@
     "discount": null
   },
   {
-    "title": "Últimas horas para ganhar até 80% de bônus nas transferências de pontos dos bancos para a Smiles",
-    "link": "https://passageirodeprimeira.com/prorrogado-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
-    "date": "2026-11-18T12:51:51+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "80%",
-    "cat": "milhas",
-    "entity": "Smiles",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
     "link": "https://pontospravoar.com/azul-fidelidade-oferece-ate-12-pontos-real-compras-renner/",
     "date": "2026-11-18T12:00:32+00:00",
@@ -140,6 +127,19 @@
     "kind": "Compra de milhas ou pontos",
     "cpm": null,
     "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Só hoje! Latam Pass tem voos com até 30% OFF - trechos a partir de R$ 79 ou 3.332 milhas mais taxas",
+    "link": "https://www.melhoresdestinos.com.br/milhas/promocao-latam-resgate-18nov26",
+    "date": "2026-11-18T21:28:50+00:00",
+    "source": "Melhores Cartões",
+    "percent": "30%",
+    "cat": "passagem",
+    "entity": "LATAM",
+    "kind": "Com milhas ou pontos",
+    "cpm": null,
+    "fare": 79.0,
     "discount": null
   },
   {
