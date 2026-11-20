@@ -13,10 +13,10 @@
     "discount": null
   },
   {
-    "title": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
-    "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
-    "date": "2026-11-20T15:00:02+00:00",
-    "source": "Passageiro de Primeira",
+    "title": "Últimas horas! Compre milhas LATAM Pass com até 66% de desconto",
+    "link": "https://pontospravoar.com/ultimas-horas-compre-milhas-latam-pass-ate-66-porcento-desconto/",
+    "date": "2026-11-20T21:00:02+00:00",
+    "source": "Pontos pra Voar",
     "percent": "66%",
     "cat": "milhas",
     "entity": "LATAM Pass",
@@ -26,13 +26,13 @@
     "discount": null
   },
   {
-    "title": "Última chamada! 7 promoções de milhas, clubes e compra de pontos para aproveitar hoje",
-    "link": "https://www.melhorescartoes.com.br/promocoes-terminam-hoje-20nov26.html",
-    "date": "2026-11-20T15:00:00+00:00",
-    "source": "Melhores Cartões",
-    "percent": "",
+    "title": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
+    "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
+    "date": "2026-11-20T15:00:02+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "66%",
     "cat": "milhas",
-    "entity": "Outros programas",
+    "entity": "LATAM Pass",
     "kind": "Compra de milhas ou pontos",
     "cpm": null,
     "fare": null,
@@ -140,32 +140,6 @@
     "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Só hoje! Ganhe até 30% de bônus ao transferir pontos Azul para ALL Accor",
-    "link": "https://passageirodeprimeira.com/so-hoje-ganhe-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor/",
-    "date": "2026-11-19T11:00:31+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "30%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Latam Pass tem voos a partir de R$ 78 ou 3.273 milhas o trecho mais taxas",
-    "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-pass-promocao-nov26",
-    "date": "2026-11-20T14:53:38+00:00",
-    "source": "Melhores Cartões",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "LATAM",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": 78.0,
     "discount": null
   },
   {
