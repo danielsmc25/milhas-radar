@@ -26,6 +26,32 @@
     "discount": null
   },
   {
+    "title": "Último dia! Hilton Honors oferece 120% de bônus na compra de pontos",
+    "link": "https://passageirodeprimeira.com/ultimo-dia-hilton-honors-oferece-120-de-bonus-na-compra-de-pontos/",
+    "date": "2026-11-21T17:00:13+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "120%",
+    "cat": "milhas",
+    "entity": "Outros programas",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Smiles com bônus de até 375% na compra de milhas",
+    "link": "https://pontospravoar.com/smiles-bonus-ate-375-porcento-compra-milhas/",
+    "date": "2026-11-21T15:00:34+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "375%",
+    "cat": "milhas",
+    "entity": "Smiles",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Últimas horas! Compre milhas LATAM Pass com até 66% de desconto",
     "link": "https://pontospravoar.com/ultimas-horas-compre-milhas-latam-pass-ate-66-porcento-desconto/",
     "date": "2026-11-20T21:00:02+00:00",
@@ -47,32 +73,6 @@
     "cat": "milhas",
     "entity": "LATAM Pass",
     "kind": "Compra de milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 19 de novembro de 2026",
-    "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-19-novembro-2026/",
-    "date": "2026-11-19T23:00:03+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "",
-    "cat": "milhas",
-    "entity": "Outros programas",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Último dia! Azul Fidelidade oferece até 120% de bônus em transferências de pontos",
-    "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-120-porcento-bonus-transferencias-pontos/",
-    "date": "2026-11-19T20:00:08+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "120%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
     "discount": null
@@ -104,45 +104,6 @@
     "discount": null
   },
   {
-    "title": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
-    "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
-    "date": "2026-11-19T14:14:40+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "25%",
-    "cat": "milhas",
-    "entity": "LATAM Pass",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
-    "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
-    "date": "2026-11-19T13:00:59+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "80%",
-    "cat": "milhas",
-    "entity": "Smiles",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Só hoje! Gere o euro a partir de R$ 3,56 ao transferir pontos Azul para o ALL Accor",
-    "link": "https://passageirodeprimeira.com/so-hoje-gere-o-euro-a-partir-de-r-356-ao-transferir-pontos-azul-para-o-all-accor/",
-    "date": "2026-11-19T12:30:25+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
     "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
     "date": "2026-11-19T15:01:34+00:00",
@@ -166,19 +127,6 @@
     "kind": "Em dinheiro",
     "cpm": null,
     "fare": 1141.0,
-    "discount": null
-  },
-  {
-    "title": "Trecho para Nova York a partir de R$ 1.436 ou 112 mil pontos Azul + taxas",
-    "link": "https://passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas/",
-    "date": "2026-11-19T15:40:10+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "Azul",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": 1436.0,
     "discount": null
   },
   {
@@ -215,19 +163,6 @@
     "percent": "30%",
     "cat": "passagem",
     "entity": "Outras companhias",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Promoção Voo Premiado da GOL sorteia viagens com acompanhante e 300 mil milhas Smiles",
-    "link": "https://pontospravoar.com/promocao-voo-premiado-da-gol-viagens-300-mil-milhas-smiles/",
-    "date": "2026-11-19T22:30:46+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "GOL",
     "kind": "Com milhas ou pontos",
     "cpm": null,
     "fare": null,
