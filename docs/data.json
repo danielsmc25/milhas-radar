@@ -13,6 +13,19 @@
     "discount": null
   },
   {
+    "title": "Semaninha fraca! Semana do Milheiro 16 a 22 de novembro",
+    "link": "https://pontospravoar.com/semaninha-fraca-semana-do-milheiro-16-a-22-novembro/",
+    "date": "2026-11-22T17:00:19+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Outros programas",
+    "kind": "Compra de milhas ou pontos",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Último dia! Azul Fidelidade oferece até 12 pontos por real em compras na Renner",
     "link": "https://pontospravoar.com/ultimo-dia-azul-fidelidade-oferece-ate-12-pontos-real-compras-renner/",
     "date": "2026-11-22T13:00:56+00:00",
@@ -52,19 +65,6 @@
     "discount": null
   },
   {
-    "title": "Últimas horas! Compre milhas LATAM Pass com até 66% de desconto",
-    "link": "https://pontospravoar.com/ultimas-horas-compre-milhas-latam-pass-ate-66-porcento-desconto/",
-    "date": "2026-11-20T21:00:02+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "66%",
-    "cat": "milhas",
-    "entity": "LATAM Pass",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Último dia! LATAM Pass oferece até 66% de desconto na compra de milhas",
     "link": "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
     "date": "2026-11-20T15:00:02+00:00",
@@ -78,42 +78,16 @@
     "discount": null
   },
   {
-    "title": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm  passagens nacionais a partir de R$ 276 ida e volta!",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
-    "date": "2026-11-19T23:59:15+00:00",
-    "source": "Melhores Destinos",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "LATAM",
-    "kind": "Em dinheiro",
-    "cpm": null,
-    "fare": 276.0,
-    "discount": null
-  },
-  {
-    "title": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
-    "date": "2026-11-19T18:01:05+00:00",
-    "source": "Melhores Destinos",
-    "percent": "",
+    "title": "Singapore Airlines oferece 30% de desconto em trechos selecionados no KrisFlyer",
+    "link": "https://passageirodeprimeira.com/singapore-airlines-oferece-30-de-desconto-em-trechos-selecionados-no-krisflyer-5/",
+    "date": "2026-11-22T17:00:59+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "30%",
     "cat": "passagem",
     "entity": "Outras companhias",
     "kind": "Em dinheiro",
     "cpm": null,
-    "fare": 1141.0,
-    "discount": null
-  },
-  {
-    "title": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
-    "date": "2026-11-19T19:11:54+00:00",
-    "source": "Melhores Destinos",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "Outras companhias",
-    "kind": "Em dinheiro",
-    "cpm": null,
-    "fare": 4099.0,
+    "fare": null,
     "discount": null
   },
   {
@@ -125,19 +99,6 @@
     "cat": "passagem",
     "entity": "Outras companhias",
     "kind": "Em dinheiro",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Smiles tem voos a partir de 5 mil milhas ou R$ 92 + taxas",
-    "link": "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
-    "date": "2026-11-19T22:00:07+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "Outras companhias",
-    "kind": "Com milhas ou pontos",
     "cpm": null,
     "fare": null,
     "discount": null
