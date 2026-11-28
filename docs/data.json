@@ -39,6 +39,19 @@
     "discount": null
   },
   {
+    "title": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos da Black Friday!",
+    "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-black-friday-dia-27-novembro-2026/",
+    "date": "2026-11-27T23:30:50+00:00",
+    "source": "Pontos pra Voar",
+    "percent": "",
+    "cat": "milhas",
+    "entity": "Outros programas",
+    "kind": "Transferência bonificada",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Compre pontos na Blackíssima da Esfera com até 55% de desconto com o cupom do PPV",
     "link": "https://pontospravoar.com/compre-pontos-blackissima-esfera-ate-55-porcento-desconto-cupom-ppv/",
     "date": "2026-11-27T22:00:39+00:00",
@@ -72,32 +85,6 @@
     "percent": "",
     "cat": "milhas",
     "entity": "Esfera",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Apenas hoje! Esfera oferece 80% de bônus na transferência de pontos para o ConnectMiles",
-    "link": "https://pontospravoar.com/apenas-hoje-esfera-oferece-80-porcento-bonus-transferencia-pontos-connectmiles/",
-    "date": "2026-11-27T14:00:53+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "80%",
-    "cat": "milhas",
-    "entity": "Esfera",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Orange Friday! Smiles oferece até 80% de bônus nas transferências de pontos com parceiros + 79% OFF na compra de milhas",
-    "link": "https://pontospravoar.com/orange-friday-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-com-parceiros/",
-    "date": "2026-11-27T13:30:51+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "80%",
-    "cat": "milhas",
-    "entity": "Smiles",
     "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
@@ -221,32 +208,6 @@
     "discount": null
   },
   {
-    "title": "BH na Mega Promo! Voos da Latam para Belo Horizonte a partir de 3.893 milhas o trecho",
-    "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-bh-minas-nov26",
-    "date": "2026-11-27T21:43:23+00:00",
-    "source": "Melhores Cartões",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "LATAM",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Lençóis Maranhenses barato! Voos da Latam para São Luís a partir de 6 mil milhas o trecho",
-    "link": "https://www.melhoresdestinos.com.br/milhas/voos-latam-sao-luis-bf-nov26",
-    "date": "2026-11-27T19:58:55+00:00",
-    "source": "Melhores Cartões",
-    "percent": "",
-    "cat": "passagem",
-    "entity": "LATAM",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Resgate produtos no Shopping Azul com até 80% de desconto",
     "link": "https://passageirodeprimeira.com/resgate-produtos-shopping-azul-com-ate-80-desconto/",
     "date": "2026-11-27T17:57:20+00:00",
@@ -294,19 +255,6 @@
     "cat": "passagem",
     "entity": "Iberia",
     "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Oferta relâmpago na Livelo: voos para Portugal com 30% OFF e 40% de Points Back",
-    "link": "https://pontospravoar.com/oferta-relampago-na-livelo-voos-para-portugal-com-30-off-e-40-de-points-back/",
-    "date": "2026-11-27T13:08:37+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "30%",
-    "cat": "passagem",
-    "entity": "Outras companhias",
-    "kind": "Em dinheiro",
     "cpm": null,
     "fare": null,
     "discount": null
