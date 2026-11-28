@@ -1,18 +1,5 @@
 [
   {
-    "title": "Orange Friday! Clube Smiles 1.000 oferece 14 mil milhas na adesão com milheiro a partir de R$ 13,07",
-    "link": "https://pontospravoar.com/orange-friday-clube-smiles-1000-oferece-14-mil-milhas-adesao-milheiro-13-reais-07-centavos/",
-    "date": "2026-11-27T14:30:08+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "",
-    "cat": "milhas",
-    "entity": "Smiles",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": 13.07,
-    "fare": null,
-    "discount": null
-  },
-  {
     "title": "Receba 24 mil pontos ao assinar o Clube Livelo Essencial – Milheiro a partir de R$ 22,45",
     "link": "https://passageirodeprimeira.com/receba-24-mil-pontos-assinar-clube-livelo-essencial-milheiro-a-partir-r-2245/",
     "date": "2026-11-27T21:40:54+00:00",
@@ -22,19 +9,6 @@
     "entity": "Livelo",
     "kind": "Compra de milhas ou pontos",
     "cpm": 22.45,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Livelo oferece até 56,6% de desconto na compra de pontos para assinantes do Clube – milheiro a partir de R$ 29,47",
-    "link": "https://passageirodeprimeira.com/livelo-oferece-ate-566-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2947/",
-    "date": "2026-11-27T13:00:34+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "6%",
-    "cat": "milhas",
-    "entity": "Livelo",
-    "kind": "Compra de milhas ou pontos",
-    "cpm": 29.47,
     "fare": null,
     "discount": null
   },
@@ -98,19 +72,6 @@
     "percent": "80%",
     "cat": "milhas",
     "entity": "Esfera",
-    "kind": "Transferência bonificada",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Só hoje! Azul Fidelidade oferece até 120% de bônus nas transferências da Esfera",
-    "link": "https://passageirodeprimeira.com/so-hoje-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-da-esfera/",
-    "date": "2026-11-27T12:45:42+00:00",
-    "source": "Passageiro de Primeira",
-    "percent": "120%",
-    "cat": "milhas",
-    "entity": "Azul Fidelidade",
     "kind": "Transferência bonificada",
     "cpm": null,
     "fare": null,
@@ -208,6 +169,32 @@
     "discount": null
   },
   {
+    "title": "LATAM Friday oferece passagens promocionais a partir de 2 mil milhas + taxas",
+    "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas/",
+    "date": "2026-11-28T12:40:20+00:00",
+    "source": "Passageiro de Primeira",
+    "percent": "",
+    "cat": "passagem",
+    "entity": "LATAM",
+    "kind": "Com milhas ou pontos",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
+    "title": "Baixou! Mega Promo Latam Pass tem voos a partir de 2.066 milhas o trecho",
+    "link": "https://www.melhoresdestinos.com.br/milhas/mega-promo-latam-pass-bf-2026",
+    "date": "2026-11-28T11:45:00+00:00",
+    "source": "Melhores Cartões",
+    "percent": "",
+    "cat": "passagem",
+    "entity": "LATAM",
+    "kind": "Com milhas ou pontos",
+    "cpm": null,
+    "fare": null,
+    "discount": null
+  },
+  {
     "title": "Resgate produtos no Shopping Azul com até 80% de desconto",
     "link": "https://passageirodeprimeira.com/resgate-produtos-shopping-azul-com-ate-80-desconto/",
     "date": "2026-11-27T17:57:20+00:00",
@@ -241,19 +228,6 @@
     "percent": "15%",
     "cat": "passagem",
     "entity": "Azul",
-    "kind": "Com milhas ou pontos",
-    "cpm": null,
-    "fare": null,
-    "discount": null
-  },
-  {
-    "title": "Black Friday! Iberia Club oferece até 20% de desconto em emissões com Avios",
-    "link": "https://pontospravoar.com/black-friday-iberia-club-oferece-ate-20-porcento-desconto-emissoes-avios/",
-    "date": "2026-11-27T15:00:26+00:00",
-    "source": "Pontos pra Voar",
-    "percent": "20%",
-    "cat": "passagem",
-    "entity": "Iberia",
     "kind": "Com milhas ou pontos",
     "cpm": null,
     "fare": null,
